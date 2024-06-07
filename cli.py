@@ -74,10 +74,20 @@ def get_best_move(board):
 
 # Handle the human player's move
 def human_move(board, move, player_symbol):
-    if board[move] == ' ':
-        board[move] = player_symbol
-        return True
-    return False
+    while True:
+        if move < 0 or move > 8:
+            print("Sorry, your choice has to be a number between 1 to 9.")
+            move = int(input("Enter your move (1-9): ")) - 1
+            continue
+
+        if board[move] == ' ':
+            board[move] = player_symbol
+            return True
+        else:
+            print("Invalid move. Try again.")
+            move = int(input("Enter your move (1-9): ")) - 1
+            continue
+
 
 # Main game loop for single player
 def play_game_single(player_name, scores):
