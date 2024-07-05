@@ -1,5 +1,13 @@
 # Project Title: Tic-Tac-Toe Game with GUI and CLI Options
 
+## Project demo
+
+### GUI mode
+https://github.com/CJ445/Tic-Tac-Toe/assets/131938772/81f5fe05-40a7-42b7-ac5f-9664640250d9
+
+### CLI mode
+https://github.com/CJ445/Tic-Tac-Toe/assets/131938772/98ead21a-fcea-4a76-a6e6-e67e452160bd
+
 ## Project Description
 
 This project implements a classic Tic-Tac-Toe game that offers two modes of play: a Graphical User Interface (GUI) version and a Command Line Interface (CLI) version. The game provides options for single-player mode against an AI opponent or two-player mode for human vs. human matches. Scores are tracked across sessions, and players can choose their preferred mode of interaction.
